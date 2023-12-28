@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.Calculator{
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border :1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  /* height: 500px; */
+
+}
+.Calculator input{
+  height: 30px;
+  width: 300px;
+}
+.Buttons{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(4,1fr);
+  margin-top: 5%;
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px 10px;
+  /* margin: auto; */
+margin-left: -3%;
+  gap: 10px;
+  background-color: rgb(153, 159, 159);
+}
+
+.Buttonsbutton button:hover{
+  background-color: cyan;
+}
